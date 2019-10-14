@@ -5,6 +5,7 @@ import { ProductsListComponent } from './products-list/products-list.component';
 import { ProductsRowComponent } from './products-row/products-row.component';
 import { ProductImageComponent } from './product-image/product-image.component';
 import { PriceDisplayComponent } from './price-display/price-display.component';
+import { ProductDepartmentComponent } from './product-department/product-department.component';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -13,7 +14,7 @@ describe('AppComponent', () => {
         RouterTestingModule
       ],
       declarations: [
-        AppComponent,ProductsListComponent,ProductsRowComponent,ProductImageComponent,PriceDisplayComponent
+        AppComponent,ProductsListComponent,ProductsRowComponent,ProductImageComponent,PriceDisplayComponent,ProductDepartmentComponent
       ],
     }).compileComponents();
   }));

@@ -4,6 +4,7 @@ import { ProductsRowComponent } from './products-row.component';
 import { Product } from '../product.model';
 import { ProductImageComponent } from '../product-image/product-image.component';
 import { PriceDisplayComponent } from '../price-display/price-display.component';
+import { ProductDepartmentComponent } from '../product-department/product-department.component';
 
 describe('ProductsRowComponent', () => {
   let component: ProductsRowComponent;
@@ -11,7 +12,7 @@ describe('ProductsRowComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ProductsRowComponent,ProductImageComponent,PriceDisplayComponent]
+      declarations: [ ProductsRowComponent,ProductImageComponent,PriceDisplayComponent,ProductDepartmentComponent]
     })
     .compileComponents();
   }));
