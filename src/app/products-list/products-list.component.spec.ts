@@ -2,6 +2,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ProductsListComponent } from './products-list.component';
 import { Product } from '../product.model';
+import { ProductsRowComponent } from '../products-row/products-row.component';
 
 describe('ProductsListComponent', () => {
   let component: ProductsListComponent;
@@ -9,7 +10,7 @@ describe('ProductsListComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ProductsListComponent ]
+      declarations: [ ProductsListComponent,ProductsRowComponent]
     })
     .compileComponents();
   }));
