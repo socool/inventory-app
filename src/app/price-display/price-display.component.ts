@@ -11,6 +11,7 @@ export class PriceDisplayComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
 
 }
