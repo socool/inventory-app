@@ -5,16 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProductsListComponent } from './products-list/products-list.component';
 import { ProductsRowComponent } from './products-row/products-row.component';
+import { ProductImageComponent } from './product-image/product-image.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductsListComponent,
-    ProductsRowComponent
+    ProductsRowComponent,
+    ProductImageComponent
   ],
   imports: [
     BrowserModule,
-    
     AppRoutingModule
   ],
   providers: [],
