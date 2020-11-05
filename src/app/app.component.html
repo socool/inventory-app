@@ -2,8 +2,12 @@
 <span>{{ title }} is running!</span>
 <h1>Welcome to inventory-app</h1>
 <div class="inventory-app">
+<<<<<<< HEAD
   <products-list
   [productList]="products"
   (onProductSelected)="productWasSelected($event)">
 </products-list>
+=======
+  <app-products-list [productList]="products" (onProductSelected)="productWasSelected($event)"></app-products-list>
+>>>>>>> b48c2fa04fd6196ae3dd96e063f1572176c050e7
 </div>
